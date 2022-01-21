@@ -14,7 +14,7 @@ namespace DesignPatterns.Behavioral.Observer.Observers
 
 		public string GetDisplayMessage ()
 		{
-			return $"Displayed on { this.displaySource }: Temperature = { base.data?.TemperatureInCelcius }°C, Humidity = { base.data?.HumidityInGramPerMCube } g/m3, Atmospheric Pressure = { base.data?.AtmosphericPressureInPascal } Pa.";
+			return $"Displayed on { this.displaySource }: Temperature = { base.data?.TemperatureInCelcius }°C, Humidity = { base.data?.HumidityInGramPerMCube } g/m³, Atmospheric Pressure = { base.data?.AtmosphericPressureInPascal } Pa.";
 		}
 	}
 }
